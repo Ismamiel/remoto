@@ -1,15 +1,27 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import javax.xml.transform.stream.StreamSource;
+import java.util.Scanner;
+
+
 public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+      Scanner scan = new Scanner(System.in);
+        System.out.println("Introduce un numero");
+              int popocho = scan.nextInt();
+        if (popocho == 0) {
+            System.out.println("Deberias conseguir uno");
+        } else if (popocho == 1) {
+            System.out.println("Esta muy mimado");
+        } else if (popocho == 2 || popocho == 3) {
+            System.out.println("Es una familia muy equilibrada");
+        }else {
+            System.out.println("Son demasiados popochos");
         }
+        for (int i=0;i<popocho;i++) {
+            System.out.print("Zzz...");
+        }
+
+
     }
 }
