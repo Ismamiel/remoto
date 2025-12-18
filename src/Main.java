@@ -22,7 +22,7 @@ public class Main {
         for (int i=0;i<popocho;i++) {
             System.out.print("Zzz...");
         }
-        System.out.println("Todos los popochos estan durmiendo y tranquilos");
+        System.out.println("TODOS LOS POCHOCOS ESTAN ZZZZZZZZZZZZZZZZZZZZZZZZZZZ");
         System.out.println("Fin del programa");
          System.out.println("Este programa ha sido tocado desde github");
 
